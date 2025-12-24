@@ -18,6 +18,21 @@ app.post("/api/v1/patches/check", (req, res) => {
     rolled_back_patch_numbers: []
   });
 });
+app.get("/api/v1/apps", (req, res) => {
+  console.log("== /api/v1/apps check req" + req);
+  res.send({
+   apps: [
+     {
+        appId: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
+        displayName: "codepush_demo",
+        latestReleaseVersion: "1.0.0",
+        latestPatchNumber: 1,
+        createdAt: new Date("2023-01-01T00:00:00Z"),
+        updatedAt: new Date("2023-06-01T00:00:00Z"),
+      }
+   ]
+  });
+});
 app.get("/", function (req, res) {
   console.log("== root get req" + req);
   res.send("OK");
