@@ -9,10 +9,8 @@ app.post("/api/v1/patches/check", (req, res) => {
     patch: 
       {
         number: 1,
-        hash: "44575fb35dde8a0521f9cd3b7fb66536d3518294",
-        // download_url:
-        //  "https://raw.githubusercontent.com/huy2368/test-code-push/refs/heads/develop/dlc.vmcode",
-        download_url:"https://cdn.shorebird.cloud/api/v1/patches/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/android/aarch64/bf009ca7/dlc.vmcode"
+        hash: "6e8a5c0a0bf075a377a193ecc118c127cec6eb9dd8b92ef45ae28d0f7c7039ac",
+        download_url:"https://github.com/hungnqptit/test_sb/releases/download/v1/dlc.vmcode"
       }
     ,
     rolled_back_patch_numbers: []
