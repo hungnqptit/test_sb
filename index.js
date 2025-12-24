@@ -77,8 +77,8 @@ app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases/1/artifacts"
       url: "https://example.com",
       hash: "#",
       size: 42,
-      podfileLockHash: null,
-      canSideload: true
+      podfile_lock_hash: null,
+      can_sideload: true
     }
   ] });
 });
