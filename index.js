@@ -23,12 +23,12 @@ app.get("/api/v1/apps", (req, res) => {
   res.send({
    apps: [
      {
-        appId: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
-        displayName: "codepush_demo",
-        latestReleaseVersion: "1.0.0",
-        latestPatchNumber: 1,
-        createdAt: new Date("2023-01-01T00:00:00Z"),
-        updatedAt: new Date("2023-06-01T00:00:00Z"),
+        app_id: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
+        display_name: "codepush_demo",
+        latest_release_version: "1.0.0",
+        latest_patch_number: 1,
+        created_at: new Date("2023-01-01T00:00:00Z"),
+        updated_at: new Date("2023-06-01T00:00:00Z"),
       }
    ]
   });
