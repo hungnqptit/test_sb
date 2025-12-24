@@ -53,7 +53,7 @@ app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases", (req, res)
   console.log("== release patches request", req);
   res.send({ releases: [
     {
-      id: "1",
+      id: 1,
       appId: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
       version: "1.0.0",
       flutterRevision: "a9d3aa6a2a71c0f7581dc81f3e2e787233ed7b92",
