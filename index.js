@@ -69,16 +69,16 @@ app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases", (req, res)
 app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases/1/artifacts", (req, res) => {
   console.log("== release patches request", req);
   res.send({ artifacts: [
-    // {
-    //      required this.id,
-    // required this.releaseId,
-    // required this.arch,
-    // required this.platform,
-    // required this.hash,
-    // required this.size,
-    // required this.url,
-    // required this.podfileLockHash,
-    // required this.canSideload,
-    // }
+    {
+      id: 0,
+      release_id: 1,
+      arch: "aarch64",
+      platform: "android,
+      url: 'https://example.com',
+      hash: '#',
+      size: 42,
+      podfileLockHash: null,
+      canSideload: true
+    }
   ] });
 });
