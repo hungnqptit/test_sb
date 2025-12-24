@@ -9,7 +9,7 @@ app.post("/api/v1/patches/check", (req, res) => {
     patch: 
       {
         number: 1,
-        hash: "9ab68f08776723442542f1cfa78fad357fe3b6ab34df263373439d9ed744477d",
+        hash: "44575fb35dde8a0521f9cd3b7fb66536d3518294",
         // download_url:
         //  "https://raw.githubusercontent.com/huy2368/test-code-push/refs/heads/develop/dlc.vmcode",
         download_url:"https://cdn.shorebird.cloud/api/v1/patches/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/android/aarch64/bf009ca7/dlc.vmcode"
@@ -74,8 +74,8 @@ app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases/1/artifacts"
       release_id: 1,
       arch: "aarch64",
       platform: "android",
-      url: "https://example.com",
-      hash: "#",
+      url: "https://github.com/hungnqptit/test_sb/releases/download/v1/app-release.aab",
+      hash: "44575fb35dde8a0521f9cd3b7fb66536d3518294",
       size: 42,
       podfile_lock_hash: null,
       can_sideload: true
