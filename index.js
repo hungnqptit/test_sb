@@ -52,15 +52,17 @@ app.listen(PORT, () => {
 app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases", (req, res) => {
   console.log("== release patches request", req);
   res.send({ releases: [
-    id: "1",
-    appId: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
-    version: "1.0.0",
-    flutterRevision: "a9d3aa6a2a71c0f7581dc81f3e2e787233ed7b92",
-    flutterVersion: "3.38.5",
-    displayName: "codepush_demo",
-    platformStatuses: { "android" : "active" },
-    created_at: new Date("2023-01-01T00:00:00Z"),
-    updated_at: new Date("2023-06-01T00:00:00Z"),
-    notes: "Test code push ne hehe",
+    {
+      id: "1",
+      appId: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
+      version: "1.0.0",
+      flutterRevision: "a9d3aa6a2a71c0f7581dc81f3e2e787233ed7b92",
+      flutterVersion: "3.38.5",
+      displayName: "codepush_demo",
+      platformStatuses: { "android" : "active" },
+      created_at: new Date("2023-01-01T00:00:00Z"),
+      updated_at: new Date("2023-06-01T00:00:00Z"),
+      notes: "Test code push ne hehe",
+    }
   ] });
 });
