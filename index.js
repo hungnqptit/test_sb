@@ -49,3 +49,7 @@ const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases", (req, res) => {
+  console.log("== release patches request", req);
+  res.send({ patches: [] });
+});
