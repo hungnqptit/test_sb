@@ -73,9 +73,9 @@ app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases/1/artifacts"
       id: 0,
       release_id: 1,
       arch: "aarch64",
-      platform: "android,
-      url: 'https://example.com',
-      hash: '#',
+      platform: "android",
+      url: "https://example.com",
+      hash: "#",
       size: 42,
       podfileLockHash: null,
       canSideload: true
