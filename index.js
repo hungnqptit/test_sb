@@ -9,7 +9,7 @@ app.post("/api/v1/patches/check", (req, res) => {
     patch: 
       {
         number: 2,
-        hash: "88640f4462c1a16435cd64bb4c01a3f74963c95d82152c577807486236d500f9",
+        hash: "12bd4b4a78638beb1dc3928a540cfce7c72e558ff287282200368383b5bc65ec",
         download_url:"https://github.com/hungnqptit/test_sb/releases/download/v1/dlc.vmcode"
       }
     ,
