@@ -54,7 +54,7 @@ app.get("/api/v1/apps/457789c6-f756-4650-a3e1-06da8d2032fc/releases", (req, res)
       id: 1,
       app_id: "457789c6-f756-4650-a3e1-06da8d2032fc",
       version: "1.0.0",
-      flutter_revision: "9904ef00d8085df9b100561035d698dee4d8bf6a",
+      flutter_revision: "9904ef0",
       flutter_version: "3.27.4",
       display_name: "codepush_demo",
       platform_statuses: { "android" : "active" },
