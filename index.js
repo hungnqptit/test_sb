@@ -21,7 +21,7 @@ app.get("/api/v1/apps", (req, res) => {
   res.send({
    apps: [
      {
-        app_id: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
+        app_id: "457789c6-f756-4650-a3e1-06da8d2032fc",
         display_name: "codepush_demo",
         latest_release_version: "1.0.0",
         latest_patch_number: 1,
