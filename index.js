@@ -47,7 +47,7 @@ const PORT = 8080;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases", (req, res) => {
+app.get("/api/v1/apps/457789c6-f756-4650-a3e1-06da8d2032fc/releases", (req, res) => {
   console.log("== release patches request", req);
   res.send({ releases: [
     {
@@ -64,7 +64,7 @@ app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases", (req, res)
     }
   ] });
 });
-app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases/1/artifacts", (req, res) => {
+app.get("/api/v1/apps/457789c6-f756-4650-a3e1-06da8d2032fc/releases/1/artifacts", (req, res) => {
   console.log("== release patches request", req);
   res.send({ artifacts: [
     {
