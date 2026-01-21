@@ -52,10 +52,10 @@ app.get("/api/v1/apps/28bf72f7-dc01-4159-b9ae-8f9ce191bd5c/releases", (req, res)
   res.send({ releases: [
     {
       id: 1,
-      app_id: "28bf72f7-dc01-4159-b9ae-8f9ce191bd5c",
+      app_id: "457789c6-f756-4650-a3e1-06da8d2032fc",
       version: "1.0.0",
       flutter_revision: "a9d3aa6a2a71c0f7581dc81f3e2e787233ed7b92",
-      flutter_version: "3.38.5",
+      flutter_version: "3.27.4",
       display_name: "codepush_demo",
       platform_statuses: { "android" : "active" },
       created_at: new Date("2023-01-01T00:00:00Z"),
