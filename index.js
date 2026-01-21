@@ -98,7 +98,7 @@ app.get("/api/v1/apps/457789c6-f756-4650-a3e1-06da8d2032fc/releases/1/patches", 
       podfile_lock_hash: null,
       can_sideload: true
     }],
-    isRolledBack: false,
+    is_rolled_back: false,
     notes: "test",
     }
   ] });
