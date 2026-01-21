@@ -10,7 +10,7 @@ app.post("/api/v1/patches/check", (req, res) => {
       {
         number: 2,
         hash: "7cfe5a2e51dea978203b682df675cd103f015b467ceb2233d2ad376693b92f99",
-        download_url:"https://github.com/hungnqptit/test_sb/releases/download/v2/dlc.vmcode"
+        download_url:"https://github.com/hungnqptit/test_sb/releases/download/v1/dlc.vmcode"
       }
     ,
     rolled_back_patch_numbers: []
